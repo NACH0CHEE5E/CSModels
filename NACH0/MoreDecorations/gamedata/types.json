@@ -9299,7 +9299,7 @@
 		],
 		"icon": "./textures/icons/Nach0QuarterBlockMaker.png",
 		"sideall": "stoneblock",
-		"sidey+": "planks"
+		"sidey+": "Nach0QuarterBlockMakerTop"
 	},
 	"Nach0QuaterBlockVanillaredplanks": {
 		"categories": [
