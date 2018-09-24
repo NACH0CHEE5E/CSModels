@@ -1,0 +1,389 @@
+{
+	"nach0.types.fishersremastered.fish": {
+		"categories": [
+			"nach0",
+			"MoreNutrition",
+			"food"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/fish.png",
+		"maxStackSize": 150,
+		"nutritionalValue" : 1
+	},
+	"nach0.types.fishersremastered.cookedfish": {
+		"categories": [
+			"nach0",
+			"MoreNutrition",
+			"food"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/cookedfish.png",
+		"maxstacksize": 150,
+		"nutritionalValue": 1.5
+	},
+	"nach0.types.fishersremastered.compost": {
+		"categories": [
+			"nach0",
+			"MoreNutrition"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/compost.png",
+		"maxStackSize": 50
+	},
+	"nach0.types.fishersremastered.lure": {
+		"categories": [
+			"nach0",
+			"MoreNutrition",
+			"tool"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/lure.png"
+	},
+	"nach0.types.fishersremastered.composter": {
+		"categories": [
+			"nach0",
+			"MoreNutrition",
+			"jobs"
+		],
+		"isPlaceable": true,
+		"icon": "./textures/icons/composter.png",
+		"maxStackSize": 50,
+		"sidey+": "nach0.textures.fishersremastered.composter.top",
+		"sidey-": "crate",
+		"sideall": "nach0.textures.fishersremastered.composter.sides"
+	},
+	"nach0.types.fishersremastered.bait": {
+		"categories": [
+			"nach0",
+			"MoreNutrition"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/bait.png",
+		"maxStackSize": 50
+	},
+	"nach0.types.fishersremastered.rod": {
+		"categories": [
+			"nach0",
+			"MoreNutrition",
+			"jobs"
+		],
+		"icon": "./textures/icons/rod.png",
+		"maxStackSize": 50,
+		"isRotatable" : true,
+		"isSolid" : false,
+		"needsBase" : true,
+		"rotatablex-": "nach0.types.fishersremastered.rod.x-",
+		"rotatablex+": "nach0.types.fishersremastered.rod.x+",
+		"rotatablez-": "nach0.types.fishersremastered.rod.z-",
+		"rotatablez+": "nach0.types.fishersremastered.rod.z+"
+	},
+	"nach0.types.fishersremastered.rod.x-" : {
+		"parentType": "nach0.types.fishersremastered.rod",
+		"mesh": "./meshes/rodx-.obj",
+		"boxes": [{"max": [0.5, 0.5, 0.5],"min": [-0.5, -0.5, -0.5]}],
+		"sideall": "planks"
+	},
+	"nach0.types.fishersremastered.rod.x+" : {
+		"parentType": "nach0.types.fishersremastered.rod",
+		"mesh": "./meshes/rodx+.obj",
+		"boxes": [{"max": [0.5, 0.5, 0.5],"min": [-0.5, -0.5, -0.5]}],
+		"sideall": "planks"
+	},
+	"nach0.types.fishersremastered.rod.z-" : {
+		"parentType": "nach0.types.fishersremastered.rod",
+		"mesh": "./meshes/rodz-.obj",
+		"boxes": [{"max": [0.5, 0.5, 0.5],"min": [-0.5, -0.5, -0.5]}],
+		"sideall": "planks"
+	},
+	"nach0.types.fishersremastered.rod.z+" : {
+		"parentType": "nach0.types.fishersremastered.rod",
+		"mesh": "./meshes/rodz+.obj",
+		"boxes": [{"max": [0.5, 0.5, 0.5],"min": [-0.5, -0.5, -0.5]}],
+		"sideall": "planks"
+	},
+	"nach0.types.fishersremastered.betterrod": {
+		"categories": [
+			"nach0",
+			"MoreNutrition",
+			"jobs"
+		],
+		"icon": "./textures/icons/rod.png",
+		"maxStackSize": 50,
+		"isRotatable" : true,
+		"isSolid" : false,
+		"needsBase" : true,
+		"rotatablex-": "nach0.types.fishersremastered.betterrod.x-",
+		"rotatablex+": "nach0.types.fishersremastered.betterrod.x+",
+		"rotatablez-": "nach0.types.fishersremastered.betterrod.z-",
+		"rotatablez+": "nach0.types.fishersremastered.betterrod.z+"
+	},
+	"nach0.types.fishersremastered.betterrod.x-" : {
+		"parentType": "nach0.types.fishersremastered.betterrod",
+		"mesh": "./meshes/rodx-.obj",
+		"boxes": [{"max": [0.5, 0.5, 0.5],"min": [-0.5, -0.5, -0.5]}],
+		"sideall": "coatedplanks"
+	},
+	"nach0.types.fishersremastered.betterrod.x+" : {
+		"parentType": "nach0.types.fishersremastered.betterrod",
+		"mesh": "./meshes/rodx+.obj",
+		"boxes": [{"max": [0.5, 0.5, 0.5],"min": [-0.5, -0.5, -0.5]}],
+		"sideall": "coatedplanks"
+	},
+	"nach0.types.fishersremastered.betterrod.z-" : {
+		"parentType": "nach0.types.fishersremastered.betterrod",
+		"mesh": "./meshes/rodz-.obj",
+		"boxes": [{"max": [0.5, 0.5, 0.5],"min": [-0.5, -0.5, -0.5]}],
+		"sideall": "coatedplanks"
+	},
+	"nach0.types.fishersremastered.betterrod.z+" : {
+		"parentType": "nach0.types.fishersremastered.betterrod",
+		"mesh": "./meshes/rodz+.obj",
+		"boxes": [{"max": [0.5, 0.5, 0.5],"min": [-0.5, -0.5, -0.5]}],
+		"sideall": "coatedplanks"
+	},
+	"Nach0Bread": {
+		"categories": [
+			"nach0",
+			"MoreNutrition",
+			"food"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/bread.png",
+		"maxstacksize": 100,
+		"nutritionalValue": 5.5
+	},
+	"Nach0Apple": {
+		"categories": [
+			"nach0",
+			"MoreNutrition",
+			"food"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/apple.png",
+		"maxstacksize": 100,
+		"nutritionalValue": 1.5
+	},
+	"Nach0ChickenCoopJobBlock": {
+		"categories": [
+			"nach0",
+			"MoreNutrition",
+			"jobs"
+		],
+		"icon": "./textures/icons/Nach0ChickenCoopJobBlock.png",
+		"maxStackSize": 50,
+		"isRotatable" : true,
+		"isSolid" : true,
+		"needsBase" : true,
+		"rotatablex-": "Nach0ChickenCoopJobBlockx-",
+		"rotatablex+": "Nach0ChickenCoopJobBlockx+",
+		"rotatablez-": "Nach0ChickenCoopJobBlockz-",
+		"rotatablez+": "Nach0ChickenCoopJobBlockz+"
+	},
+	"Nach0ChickenCoopJobBlockx-" : {
+		"parentType": "Nach0ChickenCoopJobBlock",
+		"boxes": [{"max": [0.5, 0.5, 0.5],"min": [-0.5, -0.5, -0.5]}],
+		"sideall": "planks",
+		"mesh": "./meshes/fencex.obj"
+	},
+	"Nach0ChickenCoopJobBlockx+" : {
+		"parentType": "Nach0ChickenCoopJobBlock",
+		"boxes": [{"max": [0.5, 0.5, 0.5],"min": [-0.5, -0.5, -0.5]}],
+		"sideall": "planks",
+		"mesh": "./meshes/fencex.obj"
+
+	},
+	"Nach0ChickenCoopJobBlockz-" : {
+		"parentType": "Nach0ChickenCoopJobBlock",
+		"boxes": [{"max": [0.5, 0.5, 0.5],"min": [-0.5, -0.5, -0.5]}],
+		"sideall": "planks",
+		"mesh": "./meshes/fencez.obj"
+	},
+	"Nach0ChickenCoopJobBlockz+" : {
+		"parentType": "Nach0ChickenCoopJobBlock",
+		"boxes": [{"max": [0.5, 0.5, 0.5],"min": [-0.5, -0.5, -0.5]}],
+		"sideall": "planks",
+		"mesh": "./meshes/fencez.obj"
+	},
+	"Nach0ChickenFence": {
+		"categories": [
+			"nach0",
+			"MoreNutrition",
+			"blocks"
+		],
+		"icon": "./textures/icons/Nach0ChickenFence.png",
+		"maxStackSize": 50,
+		"isRotatable" : true,
+		"isSolid" : true,
+		"needsBase" : true,
+		"rotatablex-": "Nach0ChickenFencex",
+		"rotatablex+": "Nach0ChickenFencex",
+		"rotatablez-": "Nach0ChickenFencez",
+		"rotatablez+": "Nach0ChickenFencez"
+	},
+	"Nach0ChickenFencex" : {
+		"parentType": "Nach0ChickenFence",
+		"boxes": [{"max": [0.5, 0.5, 0.5],"min": [-0.5, -0.5, -0.5]}],
+		"sideall": "blackplanks",
+		"mesh": "./meshes/fencex.obj"
+	},
+	"Nach0ChickenFencez" : {
+		"parentType": "Nach0ChickenFence",
+		"boxes": [{"max": [0.5, 0.5, 0.5],"min": [-0.5, -0.5, -0.5]}],
+		"sideall": "blackplanks",
+		"mesh": "./meshes/fencez.obj"
+	},
+	"Nach0ChickenFenceCorner": {
+		"categories": [
+			"nach0",
+			"MoreNutrition",
+			"blocks"
+		],
+		"icon": "./textures/icons/Nach0ChickenFenceCorner.png",
+		"maxStackSize": 50,
+		"isRotatable" : true,
+		"isSolid" : true,
+		"needsBase" : true,
+		"rotatablex-": "Nach0ChickenFenceCornerx-",
+		"rotatablex+": "Nach0ChickenFenceCornerx+",
+		"rotatablez-": "Nach0ChickenFenceCornerz-",
+		"rotatablez+": "Nach0ChickenFenceCornerz+"
+	},
+	"Nach0ChickenFenceCornerx-" : {
+		"parentType": "Nach0ChickenFenceCorner",
+		"boxes": [{"max": [0.5, 0.5, 0.5],"min": [-0.5, -0.5, -0.5]}],
+		"sideall": "blackplanks",
+		"mesh": "./meshes/fencecornerx-.obj"	},
+	"Nach0ChickenFenceCornerx+" : {
+		"parentType": "Nach0ChickenFenceCorner",
+		"boxes": [{"max": [0.5, 0.5, 0.5],"min": [-0.5, -0.5, -0.5]}],
+		"sideall": "blackplanks",
+		"mesh": "./meshes/fencecornerx+.obj"
+	},
+	"Nach0ChickenFenceCornerz-" : {
+		"parentType": "Nach0ChickenFenceCorner",
+		"boxes": [{"max": [0.5, 0.5, 0.5],"min": [-0.5, -0.5, -0.5]}],
+		"sideall": "blackplanks",
+		"mesh": "./meshes/fencecornerz-.obj"
+	},
+	"Nach0ChickenFenceCornerz+" : {
+		"parentType": "Nach0ChickenFenceCorner",
+		"boxes": [{"max": [0.5, 0.5, 0.5],"min": [-0.5, -0.5, -0.5]}],
+		"sideall": "blackplanks",
+		"mesh": "./meshes/fencecornerz+.obj"
+	},
+	"Nach0ChickenFeed": {
+		"categories": [
+			"nach0",
+			"MoreNutrition"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/chickenfeed.png",
+		"maxstacksize": 100
+	},
+	"Nach0Egg": {
+		"categories": [
+			"nach0",
+			"MoreNutrition"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/egg.png",
+		"maxstacksize": 100
+	},
+	"Nach0ChickenCorpse": {
+		"categories": [
+			"nach0",
+			"MoreNutrition"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/chicken.png",
+		"maxstacksize": 100
+	},
+	"Nach0ButcherBlock": {
+		"categories": [
+			"nach0",
+			"MoreNutrition",
+			"jobs"
+		],
+		"icon": "./textures/icons/butcher.png",
+		"maxStackSize": 50,
+		"sideall": "planks",
+		"sidey+": "Nach0ButcherBlockTopTexture"
+	}
+	"Nach0ChickenMeat": {
+		"categories": [
+			"nach0",
+			"MoreNutrition"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/chickenmeat.png",
+		"maxstacksize": 100
+	},
+	"Nach0CookedChickenMeat": {
+		"categories": [
+			"nach0",
+			"MoreNutrition"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/cookedchickenmeat.png",
+		"maxstacksize": 100,
+		"nutritionalValue": 5
+	},
+	"Nach0ApplePie": {
+		"categories": [
+			"nach0",
+			"MoreNutrition"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/applepie.png",
+		"maxstacksize": 100,
+		"nutritionalValue": 6
+	},
+	"Nach0Feather": {
+		"categories": [
+			"nach0",
+			"MoreNutrition"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/feather.png",
+		"maxstacksize": 100
+	},
+	"Nach0ChickenPie": {
+		"categories": [
+			"nach0",
+			"MoreNutrition"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/chickenpie.png",
+		"maxstacksize": 100,
+		"nutritionalValue": 8.5
+	},
+	"Nach0Bowl": {
+		"categories": [
+			"nach0",
+			"MoreNutrition"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/Bowl.png",
+		"maxstacksize": 100
+	},
+	"Nach0ChickenSoup": {
+		"categories": [
+			"nach0",
+			"MoreNutrition"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/chickensoup.png",
+		"maxstacksize": 100,
+		"nutritionalValue": 7.5
+	},
+	"Nach0BerryPie": {
+		"categories": [
+			"nach0",
+			"MoreNutrition"
+		],
+		"isPlaceable": false,
+		"icon": "./textures/icons/berrypie.png",
+		"maxstacksize": 100,
+		"nutritionalValue": 5.5
+	}
+}

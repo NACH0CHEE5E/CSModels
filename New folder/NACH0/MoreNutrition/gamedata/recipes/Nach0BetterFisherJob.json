@@ -1,0 +1,19 @@
+[{
+		"isOptional": false,
+		"name": "nach0.recipes.fishersremastered.betterfisher.fish",
+		"requires": [{
+			"amount": 1,
+			"type": "nach0.types.fishersremastered.lure"
+		}],
+		"results": [{
+		"amount": 5,
+			"type": "nach0.types.fishersremastered.fish",
+			"chance": 1
+		},
+		{
+			"amount": 1,
+			"type": "nach0.types.fishersremastered.lure",
+			"chance": 0.9
+		}]
+	}
+]
